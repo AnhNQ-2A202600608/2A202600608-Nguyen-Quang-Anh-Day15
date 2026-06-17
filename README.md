@@ -32,12 +32,13 @@
   * **Thứ sẽ build:** Một hệ thống RAG nâng cao có tích hợp bộ lọc ngữ nghĩa (Guardrails), cơ chế Reranking (Cohere Reranker), Semantic Cache (Redis) và giám sát chất lượng liên tục (Continuous Monitoring).
 
 ### ◽ QUYẾT ĐỊNH TRACK
-* **Track chọn:** `T3 AI Engineering (AI Applications Building)`
-  * **Vì:** Ban đầu, tôi đã định hướng và lựa chọn track `T2 AI Infrastructure` do có kinh nghiệm làm sạch dữ liệu, thiết lập data pipeline và tự động validate schema bằng Pydantic ở Day 10. Tuy nhiên, sau khi thực hành qua các bài Lab tiếp theo (đặc biệt là tự mình phát triển Multi-Judge Consensus Engine và Async Runner ở Day 14), tôi nhận thấy bản thân có đam mê lớn và năng lực tối ưu trong việc lập trình các ứng dụng AI cụ thể (Chatbot, RAG, Agentic workflows), sử dụng LLM APIs/frameworks, và xây dựng prototype tích hợp vào sản phẩm. Do đó, tôi đã quyết định chuyển sang chọn **`T3 AI Engineering (AI Applications Building)`** làm track chính thức của mình.
-* **Track cân nhắc nhưng KHÔNG chọn + lý lẽ mạnh nhất cho nó:**
-  * `T2 AI Infrastructure (Data & Infrastructure)`: Đây chính là track tôi đã lựa chọn trước đó do sự quen thuộc với MLOps và Data Pipeline. Lý do lớn nhất không tiếp tục theo đuổi track này làm định hướng chính là vì tính chất công việc tập trung sâu vào vận hành hệ thống bên dưới và hạ tầng dữ liệu thô, trong khi tôi muốn trực tiếp sáng tạo và làm việc ở tầng ứng dụng thông minh cấp cao hơn.
+* **Track chọn:** `T2 AI Infrastructure`
+  * **Vì:** Đây là hướng đi phù hợp nhất với thế mạnh và định hướng phát triển của tôi. Tôi đã có kinh nghiệm thực tế qua các bài Lab trong việc thiết kế data pipeline, viết quy tắc làm sạch dữ liệu (cleaning rules) và validate schema tự động bằng Pydantic ở Day 10. Ngoài ra, việc thiết lập Async Runner để tối ưu hóa hiệu năng, kiểm soát Rate Limits và xây dựng cơ chế Offline Fallback cho AI Evaluation Factory ở Day 14 cũng củng cố năng lực của tôi trong việc vận hành và đảm bảo hệ thống AI chạy ổn định. Tôi muốn tập trung phát triển sâu vào MLOps, thiết kế hạ tầng dữ liệu và tối ưu hóa deployment/monitoring.
+* **Track cân nhắc nhưng KHÔNG chọn (hoặc xếp làm ưu tiên thứ hai) + lý lẽ mạnh nhất cho nó:**
+  * `T3 AI Applications Building`: Tôi đã cân nhắc rất nhiều về track này vì tôi rất thích lập trình các ứng dụng AI cụ thể như Chatbot, RAG, Agentic workflow và phát triển UI/UX Streamlit. Tuy nhiên, tôi nhận thấy rằng một hệ thống AI muốn chạy tốt và tin cậy thì hạ tầng dữ liệu và khả năng vận hành hệ thống bên dưới (AI Infrastructure/MLOps) mới là nền móng quan trọng nhất cần được ưu tiên hàng đầu.
 * **Dấu hiệu sẽ khiến mình xem lại lựa chọn:**
-  * Nếu xu hướng công nghệ chuyển dịch hoàn toàn sang các giải pháp tự động hóa tích hợp sâu ở tầng hạ tầng mà không cần nhiều đến logic xử lý ở tầng Application, hoặc khi tôi nhận thấy cơ hội giải quyết các bài toán hạ tầng quy mô siêu lớn hấp dẫn hơn việc phát triển ứng dụng.
+  * Nếu trong tương lai công việc vận hành hạ tầng trở nên quá tự động hóa và bão hòa, hoặc khi tôi thấy bản thân có nhu cầu trực tiếp thiết kế các giải pháp ứng dụng AI tương tác trực tiếp với người dùng cuối nhiều hơn là tối ưu hệ thống phía sau.
+
 
 
 ### ◽ ĐỊNH HƯỚNG & CHUẨN BỊ (ghi mở – có gì ghi nấy)
