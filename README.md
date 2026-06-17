@@ -32,12 +32,13 @@
   * **Thứ sẽ build:** Một hệ thống RAG nâng cao có tích hợp bộ lọc ngữ nghĩa (Guardrails), cơ chế Reranking (Cohere Reranker), Semantic Cache (Redis) và giám sát chất lượng liên tục (Continuous Monitoring).
 
 ### ◽ QUYẾT ĐỊNH TRACK
-* **Track chọn:** `T3 AI Engineering`
-  * **Vì:** Đây là thế mạnh cốt lõi của tôi (đã thể hiện qua việc tự tay lập trình Agentic RAG, Multi-Judge consensus engine, async runner, và tối ưu hóa code Python). Tôi đam mê phát triển logic ứng dụng thông minh và giải quyết các bài toán kỹ thuật thực tế hơn là tập trung thuần vào hạ tầng dữ liệu (Data & Infra) hay quản lý sản phẩm (AI Product).
+* **Track chọn:** `T3 AI Engineering (AI Applications Building)`
+  * **Vì:** Ban đầu, tôi đã định hướng và lựa chọn track `T2 AI Infrastructure` do có kinh nghiệm làm sạch dữ liệu, thiết lập data pipeline và tự động validate schema bằng Pydantic ở Day 10. Tuy nhiên, sau khi thực hành qua các bài Lab tiếp theo (đặc biệt là tự mình phát triển Multi-Judge Consensus Engine và Async Runner ở Day 14), tôi nhận thấy bản thân có đam mê lớn và năng lực tối ưu trong việc lập trình các ứng dụng AI cụ thể (Chatbot, RAG, Agentic workflows), sử dụng LLM APIs/frameworks, và xây dựng prototype tích hợp vào sản phẩm. Do đó, tôi đã quyết định chuyển sang chọn **`T3 AI Engineering (AI Applications Building)`** làm track chính thức của mình.
 * **Track cân nhắc nhưng KHÔNG chọn + lý lẽ mạnh nhất cho nó:**
-  * `T2 Data & Infrastructure`: Dù tôi đã làm việc tốt với Data Pipeline (clean data, validate schema bằng Pydantic), việc tập trung hoàn toàn vào hạ tầng lưu trữ và quản lý data pipelines có phần khô khan, ít cơ hội được trực tiếp phát triển và tối ưu các mô hình Agentic AI/LLM năng động.
+  * `T2 AI Infrastructure (Data & Infrastructure)`: Đây chính là track tôi đã lựa chọn trước đó do sự quen thuộc với MLOps và Data Pipeline. Lý do lớn nhất không tiếp tục theo đuổi track này làm định hướng chính là vì tính chất công việc tập trung sâu vào vận hành hệ thống bên dưới và hạ tầng dữ liệu thô, trong khi tôi muốn trực tiếp sáng tạo và làm việc ở tầng ứng dụng thông minh cấp cao hơn.
 * **Dấu hiệu sẽ khiến mình xem lại lựa chọn:**
-  * Nếu thị trường dịch chuyển mạnh sang hướng auto-train/fine-tune tự động mà không cần nhiều đến lập trình logic Agent, hoặc nếu tôi phát hiện bản thân có cơ hội và khả năng tối ưu hóa tài nguyên phần cứng lớn ở mức infrastructure tốt hơn.
+  * Nếu xu hướng công nghệ chuyển dịch hoàn toàn sang các giải pháp tự động hóa tích hợp sâu ở tầng hạ tầng mà không cần nhiều đến logic xử lý ở tầng Application, hoặc khi tôi nhận thấy cơ hội giải quyết các bài toán hạ tầng quy mô siêu lớn hấp dẫn hơn việc phát triển ứng dụng.
+
 
 ### ◽ ĐỊNH HƯỚNG & CHUẨN BỊ (ghi mở – có gì ghi nấy)
 * **Định hướng tiếp theo · những thứ cần chuẩn bị · plan nếu có · câu hỏi còn mở:**
